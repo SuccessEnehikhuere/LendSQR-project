@@ -1,17 +1,16 @@
 import { useState } from 'react'
 
 
+import Auth from './components/Auth'
 
 
 
 function App() {
  
   return (
-    <>
-      <h2>hello tinyan baby love</h2>
-      <button>hello</button>
-      <button>hello</button>
-    </>
+    <main>
+     <Auth/> 
+    </main>
   )
 }
 

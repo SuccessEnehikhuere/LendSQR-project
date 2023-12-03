@@ -1,0 +1,110 @@
+.container{
+  // width: $min-width;
+  display:grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: px-to-rem(900px);
+  margin: 0 auto;
+  // max-width: $max-width;
+  column-gap:px-to-rem(10px);
+  
+}
+
+.img-container{
+  // background-color: $backgroundColor;
+  padding-top: px-to-rem(106px);
+  width:100%;
+
+}
+
+.img-main{
+  width:px-to-rem(580px);
+  height:px-to-rem(338px);  
+  margin-top:px-to-rem(100px);
+  box-sizing: $box;
+}
+.img-logo{
+  width:px-to-rem(174px);
+  height:px-to-rem(36px);
+  box-sizing: $box;
+}
+
+.form-container{
+  box-shadow: $primaryShadow;
+  width: 100%;
+  
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  position:relative;
+  width:$small-width;
+  margin:0 auto;
+  margin-top: px-to-rem(180px);
+  box-sizing: $box;
+}
+
+form h1{
+  color:$secondaryBlue;
+  font-size: px-to-rem(40px);
+}
+
+form h5{
+  color:$grey;
+  font-size: px-to-rem(20px);
+  padding-top: px-to-rem(10px);
+  padding-bottom: px-to-rem(60px);
+  font-weight: 400;
+}
+
+
+input{
+  box-sizing: border-box;
+  padding-top:px-to-rem(15px);
+  padding-bottom:px-to-rem(15px);
+  border-radius: px-to-rem(5px);
+  border: $border; 
+  box-sizing: $box;
+}
+
+.input-password{
+ margin-top:px-to-rem(24px);
+ margin-bottom:px-to-rem(24px);
+}
+
+::placeholder{
+  color:$grey;
+  font-size: px-to-rem(14px);
+  opacity: 0.6;
+  font-weight: 400;
+  padding-left:px-to-rem(16px);
+  box-sizing: $box;
+}
+
+form h4{
+  color:$primaryBlue;
+  font-weight: 600;
+  font-size:px-to-rem(12px);
+  letter-spacing: px-to-rem(1.2px);
+   padding-bottom: px-to-rem(30px);
+  
+}
+button{
+  color:$white;
+  background-color: $primaryBlue;
+  text-align: center;
+  font-size: px-to-rem(14px);
+  letter-spacing: px-to-rem(1.4px);
+  text-transform: uppercase;
+  font-weight: 600;
+  padding-top:px-to-rem(16px);
+  padding-bottom:px-to-rem(16px);
+  box-sizing: $box;
+  border:none;
+  border-radius: px-to-rem(8px)
+
+}
+
+
+
+

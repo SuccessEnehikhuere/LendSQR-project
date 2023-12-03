@@ -1,0 +1,10 @@
+$base-font-size: 16px;
+
+@function px-to-rem($value, $base: $base-font-size) {
+  @return calc($value / $base) * 1rem;
+}
+
+// Example usage:
+// .example {
+//   font-size: px-to-rem(16px); // Replace 16px with your desired pixel value
+// }

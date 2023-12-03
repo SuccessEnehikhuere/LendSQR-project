@@ -7,6 +7,21 @@ $secondaryBlue:#213F7D;
 $grey:#545F7D;
 $white:#FFFFFF;
 
+//box-shadow
+$primaryShadow: 0px 15px 90px 0px rgba(0, 0, 0, 0.03);
+
+//borders
+$border:2px solid rgba(84, 95, 125, 0.15);
+
+
+//width and sizes
+$max-width:1200px;
+$width:100%;
+$small-width:70%;
+$min-width:100vw;
+$box:border-box;
+
+
 //breakpoints for devices
 
 //Mobile Devices
@@ -14,6 +29,21 @@ $mobile-min: 320px;
 $mobile-max: 480px;
 
 
-//Mobile Devices
-$mobile-min: 320px;
-$mobile-max: 480px;
+//ipads and tablets
+$tablet-min: 481px;
+$tablet-max: 768px;
+
+//small laptops
+$laptop-min: 769px;
+$lapto-max: 1024px;
+
+//large laptops and screens
+$desktop-min: 1025px;
+$desktop-max: 1200px;
+
+//extra large screens and desktops
+$desktop-min: 1201px;
+
+
+
+

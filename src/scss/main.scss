@@ -10,6 +10,7 @@
 // Import components
 @import "./components/buttons";
 @import "./components/forms";
+@import "./components/auth";
 
 // Import layout
 @import "./layout/footer";
@@ -24,4 +25,6 @@
 @import "./themes/light-theme";
 
 // Import vendors
-@import "./vendors/normalize"
+@import "./vendors/normalize";
+
+
