@@ -12,7 +12,7 @@
 .img-container{
   // background-color: $backgroundColor;
   padding-top: px-to-rem(106px);
-  width:100%;
+  padding-left: px-to-rem(60px);
 
 }
 
@@ -30,7 +30,6 @@
 
 .form-container{
   box-shadow: $primaryShadow;
-  width: 100%;
   
 }
 
