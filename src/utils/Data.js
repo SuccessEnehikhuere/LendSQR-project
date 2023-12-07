@@ -1,6 +1,5 @@
 import {nanoid} from 'nanoid';
 
-import icon1 from '../assets/briefcase 1.svg'
 import icon2 from '../assets/home 1.svg';
 import icon3 from '../assets/user-friends 1.svg'
 import icon4 from '../assets/users 1.svg'
@@ -22,15 +21,12 @@ import icon19 from '../assets/chart-bar 2.svg'
 import icon20 from '../assets/sliders-h 1.svg'
 import icon21 from '../assets/badge-percent 1.svg'
 import icon22 from '../assets/clipboard-list 1.svg'
-import icon23 from '../assets/np_next_2236826_000000 2.svg'
+
 
 
 
 const sublinks = [
-  {pageId: nanoid(),
-    page: 'Switch Organization',
-    Icon: icon1,
-    icon:icon23,
+  {
     links: [
       {
         id:nanoid(),
@@ -39,7 +35,7 @@ const sublinks = [
       }
     ]
   },
-
+    
   {
     pageId:nanoid(),
     page:'Customers',
@@ -90,7 +86,7 @@ const sublinks = [
 
   {
     pageId:nanoid(),
-    page:'Business',
+    page:'Businesses',
     links: [
        {
         id:nanoid(),

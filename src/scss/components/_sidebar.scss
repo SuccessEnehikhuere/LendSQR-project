@@ -1,0 +1,77 @@
+.sidebar {
+  width: px-to-rem(283px);
+  height: px-to-rem(1574px);
+  flex-shrink: 0;
+  background-color: $white;
+  box-shadow: $secondaryShadow;
+  margin-top: px-to-rem(70px);
+  padding-left: px-to-rem(30px);
+  overflow: hidden;
+}
+
+.sidebar-container {
+  display: flex;
+  padding-top: px-to-rem(39px);
+}
+
+.sidebar-container h1 {
+  color: $secondaryBlue;
+  font-size: px-to-rem(16px);
+  font-weight: 400;
+  line-height: normal;
+  padding-left: px-to-rem(10px);
+  padding-right: px-to-rem(8px);
+  text-align: center;
+   
+}
+
+.icon {
+  width: px-to-rem(16px);
+  height: px-to-rem(16px);
+  flex-shrink: 0;
+}
+
+.arrow-icon{
+  width: px-to-rem(14px);
+  height: px-to-rem(14px);
+  flex-shrink: 0;
+}
+
+.main-links{
+  color:$grey;
+  font-size:  px-to-rem(12px);
+  font-weight: 500;
+  text-transform: uppercase;
+  padding-top: px-to-rem(40px);
+  padding-bottom: px-to-rem(20px);
+}
+.links {
+  display: flex;
+  align-items: center;
+
+
+}
+
+.links h3{
+  color: $secondaryBlue;
+  font-size: px-to-rem(16px);
+  font-weight: 400;
+  line-height: normal;
+  padding-top: px-to-rem(11px);
+  padding-bottom: px-to-rem(10px);
+  padding-left: px-to-rem(10px);
+  padding-right: px-to-rem(8px);
+
+}
+.links img{
+  width: px-to-rem(16px);
+  height: px-to-rem(12.8px);
+}
+
+.links:hover{
+  background-color:$hoverColor;
+  cursor:pointer;
+  transition: background-color 0.3s ease;
+  
+}
+
